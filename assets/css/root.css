@@ -1,0 +1,89 @@
+:root{
+    /* font-size */
+    --fs-xxs:16px;
+    --fs-xs:20px;
+    --fs-s:24px;
+    --fs-m:42px;
+    --fs-l:44px;
+    --fs-xl:62px;
+    /* color */
+    --fc-white:#FAFAFA;
+    --fc-grey:#3C3C3C;
+    --fc-khakhi:#988353;
+    /* background-color */
+    --bg-black1:#242323;
+    --bg-yellow:#FFCF23 !important;
+    --bg-cream:#FFF9E4;
+    --bg-black:#000;
+    --bg-silver:#D9D9D9;
+    --bg-khakhi:#80765D;
+    /* font-family */
+    --ff-monster:' Montserrat Alternates';
+    --ff-rail:'Raleway';
+}
+/* font-size */
+.fs-16{
+    font-size: var(--fs-xxs);
+}
+.fs-20{
+    font-size: var(--fs-xs);
+}
+.fs-24{
+    font-size: var(--fs-s);
+}
+.fs-42{
+    font-size: var(--fs-m);
+}
+.fs-44{
+    font-size: var(--fs-l);
+}
+.fs-62{
+    font-size: var(--fs-xl);
+}
+/* color */
+.grey{
+    color: var(--fc-grey);
+}
+.yellow{
+    color: var(--bg-yellow);
+}
+.khakhi{
+    color: var(--fc-khakhi);
+}
+.white{
+    color: var(--fc-white);
+}
+/* bg-color */
+.bg-black{
+    background: var(--bg-black);
+}
+.bg-black1{
+    background: var(--bg-black1);
+}
+.bg-yellow{
+    background: var(--bg-yellow);
+}
+.bg-silver{
+    background: var(--bg-silver);
+}
+.bg-cream{
+    background: var(--bg-cream);
+}
+/* font-family */
+.ff-monster{
+    font-family:'Montserrat Alternates';
+}
+.ff-rail{
+    font-family: 'Raleway';
+}
+@media (max-width:768px) {
+    :root{
+        /* font-size */
+        --fs-xxs:12px;
+        --fs-xs:15px;
+        --fs-s:18px;
+        --fs-m:25px;
+        --fs-l:30px;
+        --fs-xl:35px;
+    }
+}
