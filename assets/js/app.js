@@ -81,10 +81,11 @@ $('.slidr2').slick({
 
 $('.slider3').slick({
   centerMode: true,
-  centerPadding: '250px',
+  centerPadding: '230px',
   slidesToShow: 1,
   prevArrow:false,
   nextArrow:false, 
+  dots:true,
   responsive: [
     {
       breakpoint: 768,
