@@ -7,6 +7,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 .h-815 {
@@ -233,9 +234,10 @@ border-radius: 5px;
 border: 1px solid var(--fc-grey);
 background: #FFF9E4;
 transition: .4s;
+box-shadow: 5px 5px 0px 0px #3C3C3C;
 }
 .btn3:hover{
-    box-shadow: 5px 5px 0px 0px #3C3C3C;
+transform: scale(1.1);
 }
 /* section-4 */
 .mw-612{
@@ -376,6 +378,12 @@ gap: 10px;
 border-radius: 5px;
 border: 1px solid rgba(0, 0, 0, 0.40);
 background: transparent;
+transition: .4s;
+}
+.btn8:hover{
+    background: var(--bg-khakhi);
+    border: 1px solid transparent;
+    color: var(--bg-cream);
 }
 .mb-100{
     margin-bottom: 100px;

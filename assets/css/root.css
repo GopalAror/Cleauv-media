@@ -79,11 +79,11 @@
 @media (max-width:768px) {
     :root{
         /* font-size */
-        --fs-xxs:12px;
-        --fs-xs:15px;
-        --fs-s:18px;
-        --fs-m:25px;
-        --fs-l:30px;
-        --fs-xl:35px;
+        --fs-xxs:12px !important;
+        --fs-xs:15px !important;
+        --fs-s:18px !important;
+        --fs-m:25px !important;
+        --fs-l:30px !important;
+        --fs-xl:35px !important;
     }
 }

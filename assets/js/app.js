@@ -88,6 +88,15 @@ $('.slider3').slick({
   dots:true,
   responsive: [
     {
+      breakpoint: 1920,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '300px',
+        slidesToShow: 1
+      }
+    },
+    {
       breakpoint: 768,
       settings: {
         arrows: false,
